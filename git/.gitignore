@@ -1,0 +1,59 @@
+# Foldier view configuration files
+.DS_Store
+.DS_Store?
+Desktop.ini
+.AppleDouble
+.LSOverride
+ehthumbs.db
+
+# Thumbnail cache files
+._*
+Thumbs.db
+.idea
+
+# External DD files
+.Spotlight-V100
+.Trashes
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Compiled source files
+*.pyc
+*.out
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pid
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Application specific files
+venv
+node_modules
+.sass-cache
