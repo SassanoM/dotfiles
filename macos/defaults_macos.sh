@@ -420,16 +420,6 @@ defaults write com.apple.terminal "VisualBell" -bool false
 defaults write com.apple.Terminal ShowLineMarks -int 0
 
 ###############################################################################
-# Time Machine                                                                #
-###############################################################################
-
-# Disable local Time Machine backups
-hash tmutil &> /dev/null && sudo tmutil disablelocal
-
-# Disable local Time Machine snapshots
-sudo tmutil disablelocal
-
-###############################################################################
 # Activity Monitor                                                            #
 ###############################################################################
 
