@@ -1,0 +1,16 @@
+# Alias loaded by the .zshrc file when shell starts
+
+alias ipy="jupyter qtconsole --ConsoleWidget.font_family='Consolas' --ConsoleWidget.font_size=13"
+
+alias ll="ls -lh"
+alias la="ls -lha"
+alias lsd="ls -l | grep '^d'"
+alias ls="command ls -G"
+alias ..="cd .."
+alias ...="cd../.."
+alias ....="cd../../.."
+
+alias g="git"
+
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+alias workoff='deactivate'
