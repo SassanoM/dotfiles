@@ -15,5 +15,6 @@ apps=(
   pandas
   sympy
   nose
+  pandas-datareader
 )
 pip2 install "${apps[@]}"
