@@ -11,6 +11,7 @@ apps=(
   cryptomator
   flux
   helium
+  keepassxc
   iterm2
   numi
   macdown
