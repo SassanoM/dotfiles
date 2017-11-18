@@ -1,10 +1,5 @@
 echo "Auto install apps with cask"
 
-if ! is-macos -o ! is-executable brew; then
-  echo "Skipped: Homebrew-Cask"
-  return
-fi
-
 apps=(
   caffeine
   spectacle
@@ -33,7 +28,7 @@ apps=(
   virtualbox
 )
 
-brew cash install "${apps[@]}"
+brew cask install "${apps[@]}"
 
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
 
