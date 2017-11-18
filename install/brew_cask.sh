@@ -4,6 +4,7 @@ apps=(
   caffeine
   spectacle
   vlc
+  chrome
   brackets
   slack
   disk-inventory-x
