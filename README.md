@@ -14,4 +14,11 @@ git clone https://github.com/sassanom/dotfiles.git ~/.dotfiles
 
 source ~/.dotfiles/install.sh
 
-# Setup iTerm2 preference, load pref file from the iterm folder
+# Setup iTerm2 preference
+
+load pref file from the iterm folder
+
+# Run Jupyter Notebook inside a virtual env
+
+http://help.pythonanywhere.com/pages/IPythonNotebookVirtualenvs
+

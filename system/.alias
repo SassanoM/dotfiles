@@ -1,6 +1,6 @@
 # Alias loaded by the .zshrc file when shell starts
 
-alias ipy="jupyter qtconsole --ConsoleWidget.font_family='Consolas' --ConsoleWidget.font_size=13"
+alias ipy="jupyter qtconsole --ConsoleWidget.font_family='Source code pro' --ConsoleWidget.font_size=13"
 
 alias ll="ls -lh"
 alias la="ls -lha"
