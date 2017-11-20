@@ -14,7 +14,7 @@ PATH="$DOTFILES_DIR/bin:$PATH"
 # Bunch of symlinks
 ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
-ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
+ln -sfv "$DOTFILES_DIR/git/.gitignore" ~
 ln -sfv "$DOTFILES_DIR/vim/.vim" ~
 ln -sfv "$DOTFILES_DIR/vim/.vimrc" ~
 
