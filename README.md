@@ -22,3 +22,11 @@ load pref file from the iterm folder
 
 http://help.pythonanywhere.com/pages/IPythonNotebookVirtualenvs
 
+Install the ipython kernel module into your virtualenv
+
+workon my-virtualenv-name  # activate your virtualenv, if you haven't already
+pip install ipykernel
+Now run the kernel "self-install" script:
+
+python -m ipykernel install --user --name=my-virtualenv-name
+
