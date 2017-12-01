@@ -14,3 +14,24 @@ alias g="git"
 
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 alias workoff='deactivate'
+
+# Classic SHA256 hash
+function sha256(){
+echo -n "$1" | shasum -a 256 | cut -d' ' -f1
+}
+
+# Classic SHA256 hash of a SHA256 hash (textwise)
+function 2sha256(){
+echo -n $(echo -n "$1" | shasum -a 256 | cut -d' ' -f1) | shasum -a 256 | cut -d' ' -f1
+}
+
+# Bitcoin SHA256 hash (convert the hex string to a bytestring)
+function sha256btc(){
+echo -n "$1" | xxd -r -p |  shasum -a 256 | cut -d' ' -f1
+}
+
+# Bitcoin SHA256 has of a SHA256 hash (convert the hex stirng to a bytestring before applying the SHA256 hash)
+function 2sha256btc(){
+echo -n "$1" | xxd -r -p | shasum -a 256| xxd -r -p | shasum -a 256 | cut -d' ' -f1
+}
+
