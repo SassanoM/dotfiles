@@ -28,6 +28,7 @@ apps=(
   unity
   vagrant
   virtualbox
+  postman
 )
 
 brew cask install "${apps[@]}"
