@@ -30,3 +30,6 @@ Now run the kernel "self-install" script:
 
 python -m ipykernel install --user --name=my-virtualenv-name
 
+# Brackets
+
+Extension Manage :> Beautify
