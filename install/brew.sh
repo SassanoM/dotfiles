@@ -14,6 +14,7 @@ apps=(
   vim
   diff-so-fancy
   git-extras
+  node
 )
 
 brew install "${apps[@]}"
