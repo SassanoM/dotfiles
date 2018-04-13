@@ -15,6 +15,7 @@ apps=(
   diff-so-fancy
   git-extras
   node
+  yarn
 )
 
 brew install "${apps[@]}"
