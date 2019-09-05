@@ -33,3 +33,7 @@ python -m ipykernel install --user --name=my-virtualenv-name
 # Brackets
 
 Extension Manage :> Beautify
+
+# Virtualenv Wrapper auto activate
+
+The folder needs to be a git repo folder
